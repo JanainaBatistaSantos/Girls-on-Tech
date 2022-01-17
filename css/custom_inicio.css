@@ -1,0 +1,218 @@
+body,
+html{
+    width: 100%;
+    overflow-x:hidden;
+    font-family: 'Roboto', sans-serif;;
+    font-style: normal;
+    background-color: transparent;
+}
+#header{
+    width: 100%;
+    transition:'background ease-out 0.2s';
+    border-bottom: solid;
+    color:#E3C9DF;
+}
+#header .navbar-collapse{
+    width: auto;
+}
+#header .nav-link{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 300;
+    padding-left: 0px;
+    padding-right: 0px;
+    color:#72418C;
+    border-bottom: solid 3px transparent;
+}
+#header .nav-link:hover{
+    border-bottom: solid 3px #72418C;
+    color: #D289D6;
+}
+#header .navbar-brand{
+    margin-left: 0px;
+    margin-right: 0%;
+    margin-top: -25px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+#header .dropdown-menu{
+    background-color:#E3C9DF;
+}
+#header .btn-custom{
+    font-size: 14px;
+    font-weight: 300;
+    color: #72418C;
+}
+#header .btn-custom:hover{
+    color:#D289D6;
+}
+/*conf div inicial*/
+div.container-fluid{
+    padding: 10px;
+    align-items: center;
+    color:rgba(0, 0, 0, 0.8);
+}
+h1.inicio{  
+    font-family: 'Gwendolyn', cursive;         
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 22px;
+    /* or 150% */
+    letter-spacing: -0.015em;
+    color:#9d62a7;
+}
+p.inicio{
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 22px;
+    /* or 150% */
+    letter-spacing: -0.015em;
+    color: rgba(0, 0, 0, 0.8);
+}
+/*conf da divisória*/
+div.divisoria{
+    background-color:#3d1f39;
+    padding: 1px            
+}
+/*conf da div sobre nós*/
+h3.sobre{
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: -0.015em;
+    color:#3d1f39;
+}
+#sobre .btn-custom{
+    border:solid 1px;
+    font-size: 14px;
+    color:#72418C;
+    background-color: transparent;
+}    
+#sobre .btn-custom:hover{
+    border:solid 1px;
+    color: #72418C;
+    background-color: #E3C9DF;
+    font-weight:bold;
+}
+/*conf div depoimento*/
+div.depoimento{
+    background-color:#E3C9DF;
+}
+h2.dep{
+    font-weight: 350;
+    font-size: 28px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color:#72418C;
+}
+h5{
+    color: #D289D6;  
+}
+.p{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.015em;
+    color: rgba(0, 0, 0, 0.8);
+}
+form {   
+    /* Centralizar o formulário na pagina */
+    margin: 0 auto;
+    width: 400px;
+    
+    /* Ver o esboço do formulário */
+    padding: 1em;
+    border: 1px solid #CCC;
+    background-color:#E3C9DF;
+    box-shadow: 5px 5px 15px#D289D6;
+    border-radius: 8px;
+  }
+  form div + div {
+    margin-top: 1em;
+  }
+  
+  label {
+    /* Para garantir que todos os rótulos tenham o mesmo tamanho e estejam devidamente alinhados*/
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+  }
+  
+  input, textarea {
+    /* 
+  Para garantir que todos os campos de texto tenham as mesmas configurações de fonte
+       Por padrão, as áreas de texto possuem a mesma fonte */
+    font: 1em sans-serif;
+  
+    /* Para dar o mesmo tamanho a todos os campos de texto*/
+    width: 300px;
+    box-sizing: border-box;
+    border-radius: 5px;
+  
+    /* Para harmonizar o aspecto e a sensação da borda do campo de texto */
+    border: 1px solid #72418C;
+  }
+  
+  input:focus, textarea:focus {
+    /* Para dar um pouco de destaque aos elementos ativos*/
+    border-color: #D289D6;
+  }
+  
+  textarea {
+    /* Para alinhar corretamente campos de texto multilinha com seus rótulos */
+    vertical-align: top;
+  
+    /* Para dar espaço suficiente para digitar algum texto */
+    height: 5em;
+  }
+  
+  .button {
+    /* Para posicionar os botões na mesma posição dos campos de texto */
+    padding-left: 95px; /* mesmo tamanho que os elementos do rótulo */
+  }
+  
+  button {
+    /* Esta margem extra representa aproximadamente o mesmo espaço que o espaço
+       entre os rótulos e seus campos de texto*/
+    margin-left: .5em;
+  }
+form .btn-custom{
+    border:solid 1px;
+    font-size: 14px;
+    color:#72418C;
+    background-color:transparent;
+  }
+form .btn-custom:hover{
+    border:solid 1px;
+    color: #D289D6;
+    background-color:transparent;
+    font-weight:bold; 
+  }
+#container .placeholder{
+    color: #72418C;
+}
+#container .form-check{
+    color: #72418C;
+}
+.dep{
+    text-align: center;
+    padding: 3px;
+}   
+#final .btn-custom{
+    border:solid 1px;
+    font-size: 14px;
+    color:#72418C;
+    background-color: transparent;
+  }
+#final .btn-custom:hover{
+    border:solid 1px;
+    color: #72418C;
+    background-color: #E3C9DF;
+    font-weight:bold;
+  }
+  .btn-custom:hover{
+    border:solid 1px;
+    color: #72418C;
+    background-color: #E3C9DF;
+    font-weight:bold;
+}

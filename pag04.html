@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+     <!--CSS-->
+    <link href="css/pag04.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600&family=Marvel:wght@400;700&family=Montserrat:wght@400;500;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <title>Galeria</title>
+  </head>
+  <body>
+  <!--HEADER-->
+  <div id="header">
+    <div class="conteiner">
+      <nav class="navbar navbar-expand-lg navbar-light">          
+          <a class="navbar-brand" href="Inicio.html">
+            <img width="150" height="75" src="Images/IMAGENSP03/girlsontech_logo.svg" class="img-fluid"/>
+          </a>
+          <button 
+            class="navbar-toggler" 
+            type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#navbarNav" 
+            aria-controls="navbarNav" 
+            aria-expanded="false" 
+            aria-label="Toggle navigation"
+           >
+           <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Inicio.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Inicio.html#sobre">Sobre Nós</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Saiba Mais
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item btn-custom" href="pag_02.html">Se Informe</a></li>
+                  <li><a class="dropdown-item btn-custom" href="pag_03.html">Você Sabia</a></li>
+                  <li><a class="dropdown-item btn-custom" href="#">Quiz</a></li>
+                  <li><a class="dropdown-item btn-custom" href="Images/DER.png" target="blank">DER</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pag04.html">Galeria</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Cursos.html">Cursos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pag_06.html">Inscreva-se</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Login.html">Login</a>
+              </li>
+            </ul>
+          </div>          
+      </nav>
+    </div>
+  </div>      
+  <!--//HEADER-->
+
+
+    <div id="meuCarousel" class="carousel slide" data-bs-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-bs-target="#meuCarousel" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#meuCarousel" data-bs-slide-to="1"></li>
+        <li data-bs-target="#meuCarousel" data-bs-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-interval="8000">
+          <div class="overlay-image" style="background-image: url(./Images/slide-1.jpg);"></div>
+          <div class="container">
+            <h1>Participe agora!!</h1>
+            <p>Se inscreva em um dos nossos cursos profissionalizantes focados em trazer as mulheres para esse ramo da tecnologia. Faça parte do grupo de mulheres que vão mudar o futuro.</p>
+            <a href="pag_06.html" class="btn btn-lg btn-primary p-2" style="width: 15%;">Inscreva-se agora</a>
+          </div>
+        </div>
+        <div class="carousel-item" data-interval="8000">
+          <div class="overlay-image" style="background-image: url(./Images/slide-2.png);"></div>
+          <div class="container">
+            <h1>Nossos cursos</h1>
+            <p>Conheça nossos cursos profissionalizantes de programação, várias linguagens e muitas possibilidades. Entre eles, HTML e CSS, Javascript e C#, sem contar a introdução ao Git e Github</p>
+            <a href="Cursos.html" class="btn btn-lg btn-primary p-2" style="width: 15%;">Cursos</a>
+          </div>
+        </div>
+        <div class="carousel-item" data-interval="8000">
+          <div class="overlay-image" style="background-image: url(./Images/slide-3.jpg);"></div>
+          <div class="container">
+            <h1>Mulheres da tecnologia</h1>
+            <p>Veja as maiores inspirações no mundo da tecnologia, mulheres que mudaram o mundo com suas descobertas e seu trabalho, para mostrar que com nossos cursos você pode ser uma dessas também.</p>
+            <a href="pag_03.html" class="btn btn-lg btn-primary p-2" style="width: 15%;">Você sabia</a>
+          </div>
+        </div>
+      </div>
+      <a href="#meuCarousel" class="carousel-control-prev" role="button" data-bs-slide="prev">
+        <span class="sr-only"></span>
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </a>
+      <a href="#meuCarousel" class="carousel-control-next" role="button" data-bs-slide="next">
+        <span class="sr-only"></span>
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <hr class="featurette-divider m-0">
+
+    <div class="row featurette">
+      <div class="col-md-7 m-5">
+        <h2 class="featurette-heading">Mulheres na tecnologia: <span class="text-muted">A importância da representatividade</span></h2>
+        <p class="lead">A jornada da mulher na tecnologia começa difícil. Diante de tão poucas iguais a si na sala de aula, se torna inevitável a pergunta “esse lugar é para mim?”. Essa pergunta, que inicialmente é feita em faculdades e espaços de ensino, também é repetida em outros momentos e locais – no trabalho, em reuniões, em eventos.</p>
+        <p class="lead">Quando vemos a história de mulheres na computação, nos deparamos com um cenário de mulheres responsáveis por criarem toda a base que possuímos hoje.</p>
+      </div>
+      <div class="col-md-4 m-2 mb-3">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="30"><img src="./Images/img-1.jpg"></svg>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2 m-5">
+        <h2 class="featurette-heading">Educação + <span class="text-muted">Mulheres</span></h2>
+        <p class="lead">Uma pesquisa da Universidade Carnegie Mellon concluiu que metade das mulheres que iniciaram o curso de Ciência da Computação acabavam abandonando. Quando a universidade criou um curso de introdução para estudantes que não possuíam muita experiência em informática em apenas cinco anos tiveram resultados positivos. Em 2000, 42 % dos estudantes de informática da Carnegie Mellon eram mulheres.</p>
+      </div>
+      <div class="col-md-4 order-md-1 m-3 mb-5">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="30"><img src="./Images/img-2.jpg"></svg>
+      </div>
+    </div>
+
+<!--FOOTER-->
+<footer class="bg-light text-lg-start">
+  <hr class="m-0" style="color:#72418C;" />
+
+<div class="text-center py-4 align-items-center">
+<p>Nos sigam nas nossas redes sociais:</p>
+<a href="https://www.youtube.com" class="m-2" style="color: #72418C;"
+  rel="nofollow" target="_blank">
+  <i class="bi-youtube"></i>
+</a>
+<a href="https://www.facebook.com" class="m-2" style="color: #72418C;" rel="nofollow"
+  target="_blank">
+  <i class="bi-facebook"></i>
+</a>
+<a href="https://twitter.com" class="m-2" style="color: #72418C;" rel="nofollow"
+  target="_blank">
+  <i class="bi-twitter"></i>
+</a>
+<a href="https://github.com" class="m-2" style="color: #72418C;" rel="nofollow"
+  target="_blank">
+  <i class="bi-github"></i>
+</a>
+</div>
+
+<!-- Copyright -->
+<div class="text-center p-3" style="background-color: #E6E1EF;">
+Copyright © Girls on Tech 2021. All rights reserved.  </div>
+<!-- Copyright -->
+</footer>
+<!--/FOOTER-->
+    
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>
+

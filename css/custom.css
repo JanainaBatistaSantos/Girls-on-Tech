@@ -1,0 +1,144 @@
+body,
+html{
+    width: 100%;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    background-color: transparent;
+}
+#header{
+    width: 100%;
+    transition:'background ease-out 0.2s';
+    border-bottom: solid;
+    color:#E3C9DF;
+}
+#header .navbar-collapse{
+    width: auto;
+}
+#header .nav-link{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 300;
+    padding-left: 0px;
+    padding-right: 0px;
+    color:#72418C;
+    border-bottom: solid 3px transparent;
+}
+#header .nav-link:hover{
+    border-bottom: solid 3px #72418C;
+    color: #D289D6;
+}
+#header .navbar-brand{
+    margin-left: 0px;
+    margin-right: 0%;
+    margin-top: -25px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+#header .dropdown-menu{
+    background-color:#E3C9DF;
+}
+#header .btn-custom{
+    font-size: 14px;
+    font-weight: 300;
+    color: #72418C;
+}
+#header .btn-custom:hover{
+    color:#D289D6;
+}
+div.Inicio{
+    width: 100%;
+    height: 168.2px;
+    margin-left: 14px;
+    margin-right: 16px;
+    margin-top: 129px;
+    margin-bottom:450px;
+    border-color: #E3C9DF;
+    border-style: groove;
+}
+h1.Cursos{
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #9d62a7;
+}
+p.Intro{
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: rgba(0, 0, 0, 0.8)
+}
+div.divisoria{
+    background-color:#E6E1EF;          
+}
+div.slider{
+    width: 100%;
+    height: 100%;
+    margin-top: 150px;
+    margin-left: 0px;
+    margin-right: 0%;
+}
+h6{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.015em;
+    color: #000000;
+}
+p.html{
+    text-align: justify;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -0.015em;
+    color: rgba(0, 0, 0, 0.8);
+}
+p.javascript{
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -0.015em;
+    color: rgba(0, 0, 0, 0.8);
+}
+p.GitHub{
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -0.015em;
+    color: rgba(0, 0, 0, 0.8);
+}
+p.Csharp{
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -0.015em;
+    color: rgba(0, 0, 0, 0.8);
+}
+div.final{
+    width: 100%;
+    height: 30px;
+    margin-left: 33px;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: -0.015em;
+    color: rgba(0, 0, 0, 0.8)
+}
+#final .btn-custom{
+    border:solid 1px;
+    font-size: 14px;
+    color:#72418C;
+    background-color: transparent;
+}    
+#final .btn-custom:hover{
+    border:solid 1px;
+    color: #72418C;
+    background-color: #E3C9DF;
+    font-weight:bold;
+}
+.btn-custom:hover{
+    border:solid 1px;
+    color: #72418C;
+    background-color: #E3C9DF;
+    font-weight:bold;
+}
+

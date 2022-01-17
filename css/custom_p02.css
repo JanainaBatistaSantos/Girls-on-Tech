@@ -1,0 +1,96 @@
+body,
+html{
+    width: 100%;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    background-color: transparent;
+}
+#header{
+    width: 100%;
+    transition:'background ease-out 0.2s';
+    border-bottom: solid;
+    color:#E3C9DF;
+}
+#header .navbar-collapse{
+    width: auto;
+}
+#header .nav-link{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 300;
+    padding-left: 0px;
+    padding-right: 0px;
+    color:#72418C;
+    border-bottom: solid 3px transparent;
+}
+#header .nav-link:hover{
+    border-bottom: solid 3px #72418C;
+    color: #D289D6;
+}
+#header .navbar-brand{
+    margin-left: 0px;
+    margin-right: 0%;
+    margin-top: -25px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+#header .dropdown-menu{
+    background-color:#E3C9DF;
+}
+#header .btn-custom{
+    font-size: 14px;
+    font-weight: 300;
+    color: #72418C;
+}
+#header .btn-custom:hover{
+    color:#D289D6;
+}
+h1.inicio {
+  text-align:right;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 22px;
+  letter-spacing: -0.015em;
+  color: #9d62a7;    
+}
+p.Intro{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: -0.015em;
+    color: rgba(0, 0, 0, 0.8);
+}
+h2.fim{
+    text-align:center;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 22px;
+    letter-spacing: -0.015em;
+    color: #72418C;
+}
+/*conf dos botões final da pagina*/
+#final .btn-custom{
+    border:solid 1px;
+    font-size: 14px;
+    color:#72418C;
+    background-color: transparent;
+  }
+#final .btn-custom:hover{
+    border:solid 1px;
+    color: #72418C;
+    background-color: #E3C9DF;
+    font-weight:bold;
+  }
+  /*conf da divisória*/
+div.divisoria{
+    background-color:#3d1f39;
+    padding: 1px            
+}
+.btn-custom:hover{
+    border:solid 1px;
+    color: #72418C;
+    background-color: #E3C9DF;
+    font-weight:bold;
+}

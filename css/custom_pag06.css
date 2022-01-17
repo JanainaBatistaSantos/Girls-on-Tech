@@ -1,0 +1,176 @@
+body,
+html{
+    width: 100%;
+    overflow-x:hidden;
+    font-family: 'Roboto', sans-serif;;
+    font-style: normal;
+    background-color: transparent;
+}
+#header{
+    width: 100%;
+    transition:'background ease-out 0.2s';
+    border-bottom: solid;
+    color:#E3C9DF;
+}
+#header .navbar-collapse{
+    width: auto;
+}
+#header .nav-link{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 300;
+    padding-left: 0px;
+    padding-right: 0px;
+    color:#72418C;
+    border-bottom: solid 3px transparent;
+}
+#header .nav-link:hover{
+    border-bottom: solid 3px #72418C;
+    color: #D289D6;
+}
+#header .navbar-brand{
+    margin-left: 0px;
+    margin-right: 0%;
+    margin-top: -25px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+#header .dropdown-menu{
+    background-color:#E3C9DF;
+}
+#header .btn-custom{
+    font-size: 14px;
+    font-weight: 300;
+    color: #72418C;
+}
+#header .btn-custom:hover{
+    color:#D289D6;
+}
+/*conf. primeiro bloco intro*/
+div.main{
+    background: #FFFAFA;
+    display:inline-block;
+    width: 100%;
+}
+h1.main{           
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 22px;
+    /* or 150% */
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #9d62a7;            
+}
+p.main{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: rgba(0, 0, 0, 0.8);
+}
+img.main{
+    padding-left: 40px;
+    padding-right: 10px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    float: left;
+}        
+div.cadastro{
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: #E3C9DF;
+    max-width: 400px;
+    min-height: 50vh;
+    box-shadow: 5px 5px 15px#D289D6;
+    border-radius: 8px;
+}        
+input[type=text]{
+    border: 2px #D289D6;
+    border-radius: 5px;
+    color: #72418C;
+}
+input[type=email]{
+    border: 2px #D289D6;
+    border-radius: 5px;
+    color: #72418C;
+}
+input[type=password]{
+    width: 125px;
+    border: 2px #D289D6;
+    border-radius: 5px;
+    color: #72418C;
+}
+input[type=email],input[type=password]{
+    box-sizing: content-box;
+}
+input[type=text]:focus{
+    background-color: #E3C9DF;            
+}
+input[type=email]:focus{
+    background-color: #E3C9DF;
+}
+input[type=password]:focus{
+    background-color:#E3C9DF ;
+}
+#container .placeholder{
+    color: #72418C;
+}
+#container .form-check{
+    color: #72418C;
+}
+h4,h3{
+    text-align: center;
+    color: #72418C;
+    font-size: 24px;
+    letter-spacing: -0.015em;
+}
+div.divisoria{
+    background-color:#3d1f39;
+    padding: 1px            
+}
+div.fim{
+    width: 100%;
+    height: 100%;
+    margin-left: 33px;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: -0.015em;
+    color: rgba(0, 0, 0, 0.8)
+}
+/*confg dos botão inscrever*/
+#main .btn-custom{
+    border:solid 1px;
+    font-size: 14px;
+    color:#72418C;
+    background-color: transparent;
+}    
+#main .btn-custom:hover{
+    border:solid 1px;
+    color: #D289D6;
+    background-color: transparent;
+    font-weight:bold;
+}
+/*confg do botão do fim da pag contate-us*/
+#final .btn-custom{
+    border:solid 1px;
+    font-size: 14px;
+    color:#72418C;
+    background-color: transparent;
+  }
+#final .btn-custom:hover{
+    border:solid 1px;
+    color: #72418C;
+    background-color: #E3C9DF;
+    font-weight:bold;
+  }
+.btn-custom:hover{
+    border:solid 1px;
+    color: #72418C;
+    background-color: #E3C9DF;
+    font-weight:bold;
+}
+

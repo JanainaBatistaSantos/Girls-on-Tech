@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="css/login.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <!--fontes-->
+    <link href="https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600&family=Marvel:wght@400;700&family=Montserrat:wght@400;500;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <title>Entrar</title>
+  </head>
+  <body>
+     <!--HEADER-->
+    <div id="header">
+      <div class="conteiner">
+        <nav class="navbar navbar-expand-lg navbar-light">          
+            <a class="navbar-brand" href="Inicio.html">
+              <img width="150" height="75" src="Images/IMAGENSP03/girlsontech_logo.svg" class="img-fluid"/>
+            </a>
+            <button 
+              class="navbar-toggler" 
+              type="button" 
+              data-bs-toggle="collapse" 
+              data-bs-target="#navbarNav" 
+              aria-controls="navbarNav" 
+              aria-expanded="false" 
+              aria-label="Toggle navigation"
+             >
+             <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="Inicio.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Inicio.html#sobre">Sobre Nós</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Saiba Mais
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item btn-custom" href="pag_02.html">Se Informe</a></li>
+                    <li><a class="dropdown-item btn-custom" href="pag_03.html">Você Sabia</a></li>
+                    <li><a class="dropdown-item btn-custom" href="#">Quiz</a></li>
+                    <li><a class="dropdown-item btn-custom" href="Images/DER.png" target="blank">DER</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="pag04.html">Galeria</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Cursos.html">Cursos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="pag_06.html">Inscreva-se</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Login.html">Login</a>
+                </li>
+              </ul>
+            </div>          
+        </nav>
+      </div>
+    </div>      
+    <!--//HEADER-->
+
+    <!--LOGIN-->
+        <section class="vh-100">
+            <div class="container-fluid h-custom">
+              <div class="row d-flex justify-content-center align-items-center" style="height: 765px; background-color: #E3C9DF;">
+                <div class="col-md-9 col-lg-6 col-xl-5">
+                  <img src="https://mdbootstrap.com/img/Photos/new-templates/bootstrap-login-form/draw2.png" class="img-fluid"
+                    alt="image">
+                </div>
+                
+                <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1 mb-md-0 mb-4">
+             <form class="bg-white  rounded-5 shadow-5-strong p-4">
+                <div class="d-flex flex-row align-items-center justify-content-center justify-content-lg-start">
+                  <p class="lead fw-normal mb-0 me-3">Entrar com: </p>
+                  <a href="https://accounts.google.com/ServiceLogin/identifier?elo=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin"><button type="button" class="login btn btn-custom btn-floating mx-1"
+                    style="border:solid 1px;
+                    font-size: 14px;
+                    color:#72418C;
+                    background-color: transparent;">
+                    <i class="bi bi-google"></i>
+                  </button></a>
+      
+                  <a href="https://pt-br.facebook.com/"><button type="button" class="login btn btn-custom btn-floating mx-1"
+                    style="border:solid 1px;
+                    font-size: 14px;
+                    color:#72418C;
+                    background-color: transparent;">
+                    <i class="bi bi-facebook"></i>
+                  </button></a>
+      
+                  <a href="https://linkedin.com/"><button type="button" class="login btn btn-custom btn-floating mx-1"
+                    style="border:solid 1px;
+                    font-size: 14px;
+                    color:#72418C;
+                    background-color: transparent;">
+                    <i class="bi bi-linkedin"></i>
+                  </button></a>
+                </div>
+      
+                <div class="divider d-flex align-items-center my-4">
+                  <p class="text-center fw-bold mx-3 mb-0">Ou</p>
+                </div>
+      
+                <!-- Email input -->
+                <div class="form-outline mb-3">
+                  <input type="email" id="form3Example3" class="form-control form-control-lg"
+                    placeholder="Entre com um endereço de Email válido" />
+                  <label class="form-label" for="form3Example3">Endereço de Email</label>
+                </div>
+      
+                <!-- Password input -->
+                <div class="form-outline mb-3">
+                  <input type="password" id="form3Example4" class="form-control form-control-lg"
+                    placeholder="Coloque sua senha aqui" />
+                  <label class="form-label" for="form3Example4">Senha</label>
+                </div>
+      
+                <div class="d-flex justify-content-between align-items-center">
+                  <!-- Checkbox -->
+                  <div class="form-check mb-0">
+                    <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3"/>
+                    <label class="form-check-label" for="form2Example3">
+                      Lembre-se de mim
+                    </label>
+                  </div>
+                  <a href="#!" class="text-body">Esqueceu a senha?</a>
+                </div>
+      
+                <div class="text-center text-lg-start mt-4 pt-2">
+                  <button type="button" class="btn btn-lg btn-custom"
+                    style="padding-left: 2.5rem;
+                    padding-right: 2.5rem; 
+                    border:solid 1px;
+                    font-size: 14px;
+                    color:#72418C;
+                    background-color: transparent;"
+                    >Login</button>
+                  <p class="small fw-bold mt-2 pt-1 mb-0">Não tem uma conta? <a href="pag_06.html"
+                      class="link-danger" style="color: #72418C;">Registre-se</a></p>
+                </div>
+            
+              </form>
+             </div>
+          </div>
+         </div>
+       </section>
+    <!--//LOGIN-->
+
+<!--FOOTER-->
+<footer class="bg-light text-lg-start">
+  <hr class="m-0" style="color:#72418C;" />
+
+<div class="text-center py-4 align-items-center">
+<p>Nos sigam nas nossas redes sociais:</p>
+<a href="https://www.youtube.com" class="m-2" style="color: #72418C;"
+  rel="nofollow" target="_blank">
+  <i class="bi-youtube"></i>
+</a>
+<a href="https://www.facebook.com" class="m-2" style="color: #72418C;" rel="nofollow"
+  target="_blank">
+  <i class="bi-facebook"></i>
+</a>
+<a href="https://twitter.com" class="m-2" style="color: #72418C;" rel="nofollow"
+  target="_blank">
+  <i class="bi-twitter"></i>
+</a>
+<a href="https://github.com" class="m-2" style="color: #72418C;" rel="nofollow"
+  target="_blank">
+  <i class="bi-github"></i>
+</a>
+</div>
+
+<!-- Copyright -->
+<div class="text-center p-3" style="background-color: #E6E1EF;">
+Copyright © Girls on Tech 2021. All rights reserved.  </div>
+<!-- Copyright -->
+</footer>
+<!--/FOOTER-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+  integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

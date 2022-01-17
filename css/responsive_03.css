@@ -1,0 +1,28 @@
+/*tamanho minimo para a tela ter responsividade*/
+@media (max-width: 991.98px) { 
+    #header .navbar-collapse{
+        width: 100%;
+    }
+}
+/*a partir desse tamanho a tela vai possuir um espaçamento nos btns*/
+@media (min-width: 992px){
+    #header .nav-link{
+        margin-left: 15px;
+        margin-right: 30px;
+    }
+}
+@media (max-width: 991.98px) { 
+    div.inicio{
+        width: 100%;
+    }
+}
+/*a partir desse tamanho a tela vai possuir um espaçamento nos btns*/
+@media (min-width: 992px){
+    div.inicio{
+        margin-left: 15px;
+        margin-right: 30px;
+        height: 100%;
+    }
+}
+
+

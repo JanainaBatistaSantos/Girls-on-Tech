@@ -1,0 +1,219 @@
+/*tamanho minimo para a tela ter responsividade*/
+@media (max-width: 991.98px) { 
+    #header .navbar-collapse{
+        width: 100%;
+    }
+}
+/*a partir desse tamanho a tela vai possuir um espaçamento nos btns*/
+@media (min-width: 992px){
+    #header .nav-link{
+        margin-left: 15px;
+        margin-right: 30px;
+    }
+}
+@media (max-width: 991.98px) { 
+    div.inicio{
+        width: 100%;
+    }
+}
+body,
+html{
+    width: 100%;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    background-color: transparent;
+}
+#header{
+    width: 100%;
+    transition:'background ease-out 0.2s';
+    border-bottom: solid;
+    color:#E3C9DF;
+}
+#header .navbar-collapse{
+    width: auto;
+}
+#header .nav-link{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 300;
+    padding-left: 0px;
+    padding-right: 0px;
+    color:#72418C;
+    border-bottom: solid 3px transparent;
+}
+#header .nav-link:hover{
+    border-bottom: solid 3px #72418C;
+    color: #D289D6;
+}
+#header .navbar-brand{
+    margin-left: 0px;
+    margin-right: 0%;
+    margin-top: -25px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+#header .dropdown-menu{
+    background-color:#E3C9DF;
+}
+#header .btn-custom{
+    font-size: 14px;
+    font-weight: 300;
+    color: #72418C;
+}
+#header .btn-custom:hover{
+    color:#D289D6;
+}
+
+h2 {
+position: absolute;
+width: 438px;
+height: 79px;
+left: 10px;
+top: 152px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 36px;
+}
+
+div#ap
+{
+    position: absolute;
+    width: 815px;
+    height: 437px;
+    left: 435px;
+    top: 152px;
+}
+    
+div#retangulo
+{
+position: absolute;
+width: 438px;
+height: 79px;
+left: 35px;
+top: 500px;
+}
+    
+h3#sobre
+{
+background-color: #E3C9DF;
+position: absolute;
+width: 1260px;
+height: 295px;
+left: 10px;
+top: 600px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 30px;
+}
+    
+img#teste
+{
+position: absolute;
+width: 332px;
+height: 76px;
+left: 569px;
+top: 200px;
+}
+
+h1#titulodepo
+{
+position: absolute;
+width: 725px;
+height: 73px;
+left: 30px;
+top: 900px;
+}
+
+img#depoimentosbizu
+{
+position: absolute;
+width: 1300px;
+height: 618px;
+left: 1px;
+top: 960px;
+}
+
+
+h1#ficoudvd
+{
+background-color: white;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 45px;
+line-height: 80px; 
+position: absolute;
+width: 1250px;
+height: 297px;
+left: 10px;
+top: 1500px;      
+}
+    
+p#dvdfic
+{
+background-color: white;
+position: absolute;
+width: 635px;
+height: 169px;
+left: 10px;
+top: 1600px;
+    
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 29px;
+display: flex;
+align-items: center;
+letter-spacing: -0.015em;
+}
+    
+img#framedvd
+{
+position: absolute;
+width: 705px;
+height: 538px;
+left: 600px;
+top: 1480px;
+}
+
+img#face
+{
+position: absolute;
+width: 144px;
+height: 144px;
+left: 150px;
+top: 1850px;
+}
+
+img#wpp
+{
+position: absolute;
+width: 144px;
+height: 144px;
+left: 300px;
+top: 1850px;
+}
+
+img#yt
+{
+position: absolute;
+width: 144px;
+height: 144px;
+left: 440px;
+top: 1850px;
+}
+
+img#insta
+{
+position: absolute;
+width: 144px;
+height: 144px;
+left: 10px;
+top: 1850px;
+}
